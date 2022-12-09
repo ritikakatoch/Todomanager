@@ -1,0 +1,97 @@
+body{
+    background-image: url("homebg.jpg");
+    /* background-image: linear-gradient(to right top, #3070ba, #3368aa, #345f9a, #35578b, #344f7c, #365880, #3b6184, #426987, #55859c, #6da1b0, #89bec4, #aadad7); */
+    
+ 
+}
+
+.todo-apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 520px;
+    min-height: 2rem;
+    /* background-color:lightgray; */
+    /* background-color: #dddddd; */
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+
+  }
+
+.styled-table{
+    /* border-collapse:collapse; */
+    margin:auto;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    width:28rem;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.35);
+-webkit-backdrop-filter: blur(28px);
+backdrop-filter: blur(28px);
+border: 1px solid rgba(255,255,255,0.175);
+}
+
+.styled-table thead tr{
+    color: white;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td{
+    padding:12px 15px;
+}
+
+.styled-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-tyoe(even){
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom:2px solid #009879 ;
+}
+
+.btn{
+    border:none;
+    color:white;
+    padding:5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor: pointer;
+}
+.btn-edit{
+    background-color: #008cba;
+}
+
+.btn-delete{
+    background-color: #f44336;
+}
+
+
+.delete-icon {
+    margin-right: 20px;
+    color:#161748;    
+  }
+  
+.edit-icon {
+    color:#161748; 
+   
+  }
+
+.list{
+    margin: 32px 0;
+    color:#161a2b;
+    font-weight: bolder;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ 
